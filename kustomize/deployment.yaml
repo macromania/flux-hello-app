@@ -4,7 +4,6 @@ metadata:
   labels:
     app: hello-nginx
   name: hello-nginx
-  namespace: hello
 spec:
   replicas: 1
   selector:

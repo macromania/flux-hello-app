@@ -4,7 +4,6 @@ metadata:
   name: hello-nginx
   labels:
     app: hello-nginx
-  namespace: hello
 spec:
   type: NodePort
   selector:

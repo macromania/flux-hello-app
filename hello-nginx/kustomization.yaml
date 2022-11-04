@@ -5,4 +5,7 @@ metadata:
   namespace: hello
 namespace: hello
 resources:
-  - ./hello-nginx
+  - deployment.yaml
+  - service.yaml
+  - config-map.yaml
+  - namespace.yaml
